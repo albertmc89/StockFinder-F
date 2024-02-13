@@ -5,13 +5,13 @@ import { store } from "../../store";
 
 describe("Given an App component", () => {
   describe("When rendered", () => {
-    test("Then it should show the text 'Hello world!", () => {
-      const expectedText = /hello world!/i;
+    test("Then it should show the text 'Stocks", () => {
+      const expectedText = /Stocks/i;
 
       render(
         <Provider store={store}>
           <App />
-        </Provider>
+        </Provider>,
       );
 
       const text = screen.getByText(expectedText);
