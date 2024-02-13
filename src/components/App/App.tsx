@@ -1,5 +1,12 @@
+import Header from "../Header/Header";
+
 const App = (): React.ReactElement => {
-  return <p>Hello world!</p>;
+  return (
+    <>
+      <Header />
+      <main className="container">Hello world!</main>
+    </>
+  );
 };
 
 export default App;
