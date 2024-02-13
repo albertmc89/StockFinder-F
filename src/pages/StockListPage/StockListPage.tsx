@@ -1,4 +1,4 @@
-import "./StocksListPage.css";
+import "./StockListPage.css";
 
 const StockListPage = (): React.ReactElement => {
   return (
